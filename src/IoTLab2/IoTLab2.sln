@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTLab.Device", "IoTLab.Device\IoTLab.Device.csproj", "{CF5B6DA8-A0D2-429F-9F24-DDE1188CF3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTLab.WebApp", "IoTLab.WebApp\IoTLab.WebApp.csproj", "{75FF9E17-CE35-426D-9F75-319EE02D44CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{C2B4DC1A-F4B3-447A-8AB1-80BC5DDBDF20}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{A74A3E70-AD88-4A6A-A1BB-535E32A93AF9}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\IoTLabWebApp-WAWS-dev.json = PublishScripts\Configurations\IoTLabWebApp-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5B6DA8-A0D2-429F-9F24-DDE1188CF3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5B6DA8-A0D2-429F-9F24-DDE1188CF3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5B6DA8-A0D2-429F-9F24-DDE1188CF3EE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CF5B6DA8-A0D2-429F-9F24-DDE1188CF3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5B6DA8-A0D2-429F-9F24-DDE1188CF3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5B6DA8-A0D2-429F-9F24-DDE1188CF3EE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{75FF9E17-CE35-426D-9F75-319EE02D44CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FF9E17-CE35-426D-9F75-319EE02D44CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FF9E17-CE35-426D-9F75-319EE02D44CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FF9E17-CE35-426D-9F75-319EE02D44CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A74A3E70-AD88-4A6A-A1BB-535E32A93AF9} = {C2B4DC1A-F4B3-447A-8AB1-80BC5DDBDF20}
+	EndGlobalSection
+EndGlobal
